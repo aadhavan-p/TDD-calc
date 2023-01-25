@@ -11,7 +11,7 @@ class Calculator:
     def multiply(self, x: int, y: int) -> int:
         return x*y
 
-    def divide(self, x: int, y: int) -> Union(int, float):
+    def divide(self, x: int, y: int) -> Union[int, float]:
         return x / y
 
     def subtract(self, x: int, y: int) -> int:
